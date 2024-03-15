@@ -21,7 +21,7 @@ spec:
     }
   }
   environment {
-    IMAGE_REGISTRY = "471112932883.dkr.ecr.us-east-1.amazonaws.com/eshop-frontend:latest"
+    IMAGE_REGISTRY = "471112932883.dkr.ecr.us-east-1.amazonaws.com"
   }
   stages {
     stage('Build with Kaniko') {
