@@ -21,7 +21,7 @@ spec:
     }
   }
   environment {
-    IMAGE_REGISTRY = "<< ECR URI >>"
+    IMAGE_REGISTRY = "471112932883.dkr.ecr.us-east-1.amazonaws.com/eshop-recommendservice:latest"
   }
   stages {
     stage('Build with Kaniko') {

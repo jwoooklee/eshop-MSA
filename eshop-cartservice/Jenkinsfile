@@ -32,7 +32,7 @@ spec:
     }
   }
   environment {
-    IMAGE_REGISTRY = "471112932883.dkr.ecr.us-east-1.amazonaws.com/eshop-backend:latest"
+    IMAGE_REGISTRY = "471112932883.dkr.ecr.us-east-1.amazonaws.com/eshop-cartservice:latest"
   }
   stages {
     stage('build and push docker image') {
